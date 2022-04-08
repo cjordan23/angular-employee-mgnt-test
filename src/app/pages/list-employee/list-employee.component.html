@@ -1,0 +1,50 @@
+<p>list-employee works!</p>
+
+
+<div class="card">
+  <div class="card-header">
+    <button type="button" class="btn" size="small" status="primary" (click)="onAdd()">
+      Add New
+    </button>
+    <span style="float: right">
+      <button type="button" class="btn" size="small" status="success" (click)="onEdit()">
+        Edit
+      </button>
+      <button type="button" class="btn" size="small" status="danger" (click)="onDelete()">
+        Delete
+      </button>
+    </span>
+  </div>
+  <div class="card-body">
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">First</th>
+          <th scope="col">Last</th>
+          <th scope="col">Handle</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td colspan="2">Larry the Bird</td>
+          <td>@twitter</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
